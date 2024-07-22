@@ -81,6 +81,7 @@ async def create_upload_file(request: Request):
     common_name = list(class_names_dict.values())[class_label][1]
     # common_name = fungi_data.get_fungi_name(class_label)
     # print(class_label)
+    print(the_name)
     return {'common_name': common_name, 'name': the_name}
     # return{'name': common_name}
 if __name__ == '__main__':
